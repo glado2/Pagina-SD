@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+h1{
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+h2{
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+header,section, footer, aside, nav, article{
+    display: block;
+}
+
+body{
+    text-align: center;  
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+}
+
+.imgb p{
+    padding: 30%;
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.agrupar{
+    font-family: sans-serif;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+}
+
+
+.header1{
+
+    background-color: black;
+
+    color: white;
+    text-align: left;
+    padding: 2%;
+    display: inline-flex;
+}
+
+.header1 h1{
+    padding-left: 31px;
+    padding-right: 700px;
+    background-color: black;
+}
+
+.header1 li{
+    list-style: none;
+    padding: 5px;
+    font: 14px bold;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+
+.footer1{
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
